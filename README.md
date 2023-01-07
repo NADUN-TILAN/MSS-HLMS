@@ -1,5 +1,5 @@
 # MSS-HLMS
-Uni Final Group Project (Hood Lock Manufacturing System)
+University Final Group Project (Hood Lock Manufacturing System)
 Original System Images:
 *Logo
 ![Logo](https://user-images.githubusercontent.com/74712552/211167577-daea4fd3-9ee1-4fb0-abdf-ce60f2b8b283.png)
