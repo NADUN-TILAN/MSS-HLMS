@@ -11,7 +11,7 @@
             <img src="../dist/img/manager.png" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="../dashboard.php" class="d-block"><?php echo $_SESSION['uname']; ?></a>
+            <a href="#" class="d-block"><?php echo $_SESSION['uname']; ?></a>
           </div>
         </div>
 
