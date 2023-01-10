@@ -95,7 +95,7 @@ if (strlen($_SESSION['aid']) == 0) {
                         </div>
                         <!-- admin Full Name--->
                         <div class="form-group">
-                          <label for="exampleInputFullname">Full Name</label>
+                          <label for="exampleInputFullname">Position</label>
                           <input type="text" class="form-control" id="fullname" name="fullname" value="<?php echo $result['AdminName']; ?>" placeholder="Enter Sub-Admin Full Name" required>
                         </div>
                         <!--  admin Email---->
