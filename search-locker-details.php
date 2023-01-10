@@ -58,7 +58,7 @@ error_reporting(0);
 								<th>Locker Name</th>
 								<th>Mobile Number</th>
 								<th>Email</th>
-								<th>Status</th>
+								<th>Availability</th>
 								<th>Locker Assign Date</th>
 								<th>Action</th>
 							</tr>
