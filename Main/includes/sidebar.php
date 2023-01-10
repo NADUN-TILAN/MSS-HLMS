@@ -72,7 +72,7 @@
               <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-lock"></i>
                 <p>
-                  Locker Type
+                  Engineering Department
                   <i class="right fas fa-angle-left"></i>
                 </p>
               </a>
@@ -97,7 +97,7 @@
               <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-file"></i>
                 <p>
-                  Sales Locker
+                  Sales Department
                   <i class="right fas fa-angle-left"></i>
                 </p>
               </a>
@@ -124,7 +124,7 @@
               <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-table"></i>
                 <p>
-                  Reports
+                  Accounts & Finance
                   <i class="right fas fa-angle-left"></i>
                 </p>
               </a>
@@ -132,14 +132,14 @@
                 <li class="nav-item">
                   <a href="bwdates-report-ds.php" class="nav-link">
                     <i class="far fa-calendar-alt nav-icon"></i>
-                    <p>Sales Dates</p>
+                    <p>Income Report</p>
                   </a>
                 </li>
 
                 <li class="nav-item">
                   <a href="search-report.php" class="nav-link">
                     <i class="fas fa-search nav-icon"></i>
-                    <p>Search Report</p>
+                    <p>Search Reports</p>
                   </a>
                 </li>
               </ul>
