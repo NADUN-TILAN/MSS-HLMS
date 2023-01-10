@@ -30,6 +30,14 @@
                 </p>
               </a>
             </li>
+            <li class="nav-item">
+              <a href="kanban.php" class="nav-link">
+                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <p>
+                  Task Allocation
+                </p>
+              </a>
+            </li>
             <?php if ($_SESSION['utype'] == 1) : ?>
 
               <!--Subadmins--->
