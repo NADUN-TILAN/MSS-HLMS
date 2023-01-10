@@ -45,7 +45,7 @@
                 <a href="#" class="nav-link">
                   <i class="nav-icon fas fa-users"></i>
                   <p>
-                    Manage Employee
+                     HR Department
                     <i class="right fas fa-angle-left"></i>
                   </p>
                 </a>
@@ -72,7 +72,7 @@
               <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-lock"></i>
                 <p>
-                  Engineering Department
+                  Engineering Dep
                   <i class="right fas fa-angle-left"></i>
                 </p>
               </a>

@@ -26,7 +26,7 @@ if (strlen($_SESSION['aid']) == 0) {
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HLMS | Manage Sales Locker</title>
+    <title>HLMS | Sales Income Report</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -55,12 +55,12 @@ if (strlen($_SESSION['aid']) == 0) {
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <h1>Manage Sales Locker</h1>
+                <h1>Sales Department</h1>
               </div>
               <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                   <li class="breadcrumb-item"><a href="dashboard.php">Home</a></li>
-                  <li class="breadcrumb-item active">Manage Sales Locker</li>
+                  <li class="breadcrumb-item active">Sales Department</li>
                 </ol>
               </div>
             </div>
@@ -77,7 +77,7 @@ if (strlen($_SESSION['aid']) == 0) {
 
                   <div class="card">
                     <div class="card-header">
-                      <h3 class="card-title">Manage Sales Locker</h3>
+                      <h3 class="card-title">Sales Income Report</h3>
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
