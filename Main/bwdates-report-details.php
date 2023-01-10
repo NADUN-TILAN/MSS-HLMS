@@ -47,8 +47,8 @@ if (strlen($_SESSION['aid']) == 0) {
               <div class="col-sm-8">
                 <?php $fromdate = $_POST['fromdate'];
                 $todate = $_POST['todate'];
-                $fdate = date("d-m-Y", strtotime($fromdate));
-                $tdate = date("d-m-Y", strtotime($todate));
+                $fdate = date("Y-m-d", strtotime($fromdate));
+                $tdate = date("Y-m-d", strtotime($todate));
                 ?>
 
                 <h1>Sales Dates Report Details From <?php echo $fdate; ?> To <?php echo $tdate; ?></h1>
@@ -92,7 +92,10 @@ if (strlen($_SESSION['aid']) == 0) {
                           </tr>
                         </thead>
                         <tbody>
-                          <?php $query = mysqli_query($con, "select * from tblassignlocker");
+                          <?php
+                          $q="SELECT * FROM tblassignlocker WHERE LockerAssigndate >'$fdate' AND LockerAssigndate <'$tdate'";
+
+                          $query = mysqli_query($con, $q);
                           $cnt = 1;
                           while ($result = mysqli_fetch_array($query)) {
                           ?>
@@ -118,6 +121,7 @@ if (strlen($_SESSION['aid']) == 0) {
                               </th>
                             </tr>
                           <?php
+                            
                             $cnt++;
                           } ?>
 
@@ -150,7 +154,7 @@ if (strlen($_SESSION['aid']) == 0) {
         <!-- /.content -->
       </div>
       <!-- /.content-wrapper -->
-      <?php include_once('includes/footer.php'); ?>
+      <?php  include_once('includes/footer.php'); ?>
 
       <!-- Control Sidebar -->
       <aside class="control-sidebar control-sidebar-dark">
