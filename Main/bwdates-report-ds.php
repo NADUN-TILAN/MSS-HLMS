@@ -40,12 +40,12 @@ if (strlen($_SESSION['aid']) == 0) {
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <h1>Sales Dates Report Date Selection</h1>
+                <h1>Sales Income Report</h1>
               </div>
               <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                   <li class="breadcrumb-item"><a href="dashboard.php">Dashboard</a></li>
-                  <li class="breadcrumb-item active">Sales Dates Report Date Selection</li>
+                  <li class="breadcrumb-item active">Sales Income Report</li>
                 </ol>
               </div>
             </div>
@@ -61,7 +61,7 @@ if (strlen($_SESSION['aid']) == 0) {
                 <!-- general form elements -->
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">Sales Date Report Date Selection</h3>
+                    <h3 class="card-title">Sales Dates Report Date Selection</h3>
                   </div>
                   <!-- /.card-header -->
                   <!-- form start -->
