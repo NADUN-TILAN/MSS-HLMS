@@ -68,11 +68,11 @@ error_reporting(0);
 							<tr>
 								<th>Mobile Number</th>
 								<td><?php echo $result['MobileNumber'] ?></td>
-								<th>Complete Address</th>
+								<th>Sales Location</th>
 								<td><?php echo $result['CompleteAddress'] ?></td>
 							</tr>
 							<tr>
-								<th>Occupation</th>
+								<th>Description</th>
 								<td><?php echo $result['Occupation'] ?></td>
 								<th>Type of Locker</th>
 								<td><?php echo $result['SizeofLocker'] ?></td>
@@ -84,27 +84,20 @@ error_reporting(0);
 								<td><?php echo $result['KeyNumber'] ?></td>
 							</tr>
 							<tr>
-								<th>Instruction(if any)</th>
+								<th>Design details</th>
 								<td><?php echo $result['Instructions'] ?></td>
-								<th>Name of Nominee</th>
-								<td><?php echo $result['NomineeName'] ?></td>
+								
 							</tr>
 							<tr>
-								<th>Relation with Nominee</th>
-								<td><?php echo $result['Relationwithnominee'] ?></td>
+								
 								<th>Valuable Details</th>
 								<td><?php echo $result['ValuableDetails'] ?></td>
 							</tr>
-							<tr>
-								<th>ID Proof</th>
-								<td><?php echo $result['IDcard'] ?></td>
-								<th>View ID Proof</th>
-								<td><a href="Main/addressproof/<?php echo $result['IDproof'] ?>" width="100" height="100" target="_blank"> <strong style="color: red">View</strong></a></td>
-							</tr>
+							
 							<tr>
 								<th>View Pic</th>
 								<td><img src="Main/photo/<?php echo $result['Photo']; ?>" width="100" height="100" value="<?php echo $result['Photo']; ?>>"></td>
-								<th>Status</th>
+								<th>Availability</th>
 								<?php if ($result['Status'] == "1") { ?>
 
 									<td><?php echo "Active"; ?></td>
