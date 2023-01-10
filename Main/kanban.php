@@ -9,10 +9,11 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body style="padding:50px; padding-rihgt: 50px;">
 	<center>
-	<button onclick="window.location.href='./dashboard.php';" style="font-size:24px">Back <i style="color: red;" class="fa fa-hand-o-left"></i></button>
-	<div class="kanban">
+		<br> <br>
+	<button onclick="window.location.href='./dashboard.php';" style="font-size:24px; float:left;">Back <i style="color: red;" class="fa fa-hand-o-left"></i></button> <br> <br> <br>
+	<div class="kanban" style="background-color:#1196d3;">
 		<!-- <div class="kanban__column">
 			<div class="kanban__column-title">Not Started</div>
 			<div class="kanban__items">
