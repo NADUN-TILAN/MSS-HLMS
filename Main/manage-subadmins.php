@@ -94,7 +94,7 @@ if (strlen($_SESSION['aid']) == 0) {
                           </tr>
                         </thead>
                         <tbody>
-                          <?php $query = mysqli_query($con, "select * from tblbanker where UserType=0");
+                          <?php $query = mysqli_query($con, "select * from tblBanker where UserType=0");
                           $cnt = 1;
                           while ($result = mysqli_fetch_array($query)) {
                           ?>

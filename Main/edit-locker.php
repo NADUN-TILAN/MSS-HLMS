@@ -102,7 +102,7 @@ if (strlen($_SESSION['aid']) == 0) {
 
                         <div class="form-group">
                           <label for="text">Price of Locker</label>
-                          <input type="text" class="form-control" id="lockerprice" name="lockerprice" title="10 numeric characters only" required value="<?php echo $result['Priceoflocker']; ?>">
+                          <input type="number" class="form-control" id="lockerprice" name="lockerprice" title="10 numeric characters only" required value="<?php echo $result['Priceoflocker']; ?>">
                         </div>
                       </div>
 

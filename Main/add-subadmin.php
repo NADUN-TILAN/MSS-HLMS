@@ -118,7 +118,7 @@ if (strlen($_SESSION['aid']) == 0) {
                       <!-- Sub admin Contact Number---->
                       <div class="form-group">
                         <label for="text">Mobile Number</label>
-                        <input type="text" class="form-control" id="mobilenumber" name="mobilenumber" placeholder="Enter email" pattern="[0-9]{10}" title="10 numeric characters only" required>
+                        <input type="number" class="form-control" id="mobilenumber" name="mobilenumber" placeholder="Enter email" pattern="[0-9]{10}" title="10 numeric characters only" required>
                       </div>
 
                       <!---Password--->

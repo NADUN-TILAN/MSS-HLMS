@@ -47,7 +47,7 @@
                 <a href="#" class="nav-link">
                   <i class="nav-icon fas fa-users"></i>
                   <p>
-                     HR Department
+                    HR Department
                     <i class="right fas fa-angle-left"></i>
                   </p>
                 </a>
@@ -95,6 +95,34 @@
 
               </ul>
             </li>
+            <!-- supply department -->
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-handshake"></i>
+                <p>
+                  Supply Department
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview" style="display: none;">
+                <li class="nav-item">
+                  <a href="add-supplydep.php" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Add</p>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="manage-supplydep.php" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p> Manage</p>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+
             <li class="nav-item">
               <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-file"></i>
@@ -121,6 +149,7 @@
 
               </ul>
             </li>
+
             <!--Reports--->
             <li class="nav-item">
               <a href="#" class="nav-link">
@@ -146,6 +175,7 @@
                 </li>
               </ul>
             </li>
+
 
             <!--Reports--->
             <li class="nav-item">

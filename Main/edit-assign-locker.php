@@ -25,7 +25,7 @@ if (strlen($_SESSION['aid']) == 0) {
       echo "<script>alert('Locker assign updated successfully.');</script>";
       echo "<script type='text/javascript'> document.location = 'manage-locker-form.php'; </script>";
     } else {
-      echo "<script>alert('Something went wron. Please try again.');</script>";
+      echo "<script>alert('Something went wrong. Please try again.');</script>";
     }
   }
 
